@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Webmarkup </title>
+    <link rel="stylesheet" href="css/Contact.css" type="text/css" >
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <meta name="description" content="Explore the charm of Zaandam's top tourist attractions, from historic windmills to vibrant markets. Plan your visit today!" />
+    <meta name="keywords" content="Zaandam, Restaurants, Transport, Budget, Travel">
+    <meta name="author" content="Andrei Luca Dinu">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <aside id="page-logo">
+                <img src="img/logo.jpg" alt="Page-logo" title="Website-logo">
+            </aside>
+          
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">&#9776;</label>
+          
+            <ul id="hamitems">
+                <li><a href="index.html"><strong>Home Page</strong></a></li>
+                <li><a href="TouristAttractions.html"><strong>Tourist attractions</strong></a></li>
+                <li><a href="PlacesToEat.html"><strong>Places to eat</strong></a></li>
+                <li><a href="Transport.html"><strong>Transport</strong></a></li>
+                <li><a href="Budget.html"><strong>Budget</strong></a></li>
+                <li><a href="Contact.html"><strong>Contact</strong></a></li>
+            </ul>
+        </nav>   
+    </header>
+
+    <section id="contact-section">
+        <form action="#" method="POST" id="contact-form">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <aside class="radio-container">
+                    <label for="mr">Gender: Mr.</label>
+                    <input type="radio" id="mr" name="title" value="Mr" required>
+                    <label for="ms">Ms.</label>
+                    <input type="radio" id="ms" name="title" value="Ms" required>
+                    <label for="ms">Other</label>
+                    <input type="radio" id="other" name="title" value="Other" required>
+                </aside>
+
+                <aside class="input-container">
+                    <label for="First-name">First name*</label>
+                    <input type="text" id="First-name" name="First-name" required>
+                </aside>
+
+                <aside class="input-container">
+                    <label for="Last-name">Last name*</label>
+                    <input type="text" id="Last-name" name="Last-name" required>
+                </aside>
+
+                <aside class="input-container">
+                    <label for="phone">Telephone number</label>
+                    <input type="tel" id="phone" name="phone">
+                </aside>
+
+                <aside class="input-container">
+                    <label for="email">Email address* </label>
+                    <input type="text" id="email" name="email" required>
+                </aside>
+
+                <aside class="input-container">
+                    <label for="website">Website </label>
+                    <input type="url" id="website" name="address">
+                </aside>
+
+                <aside class="input-container">
+                    <label for="Note">Note*</label>
+                    <textarea id="Note" name="Note" required></textarea>
+                </aside>
+                <p>* Required</p>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer id="cookie-notice"> &copy; Luca Dinu 2023. This site is using cookies. By using this website, you agree to our cookie policy. </footer>
+</body>
+
+</html>
